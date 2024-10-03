@@ -37,9 +37,9 @@ ul,button,.main-description-text{
     color: #E5E7EB;
 }
 
-img{
-    border: 1px solid #3882F6;
-    border-radius: 8px;
+#fish{
+    width:auto;
+    height:auto;
 }
 
 .main{
@@ -64,7 +64,7 @@ img{
 }
 
 .main-description-text{
-    max-width: 60%;
+   max-width: 60%;
 }
 
 button{
@@ -72,4 +72,31 @@ button{
     border-width: 0px;
     border-radius: 8px;
     max-width: fit-content;
+}
+
+.gallery{
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding:30px;
+}
+
+.gallery-text{
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.gallery-container{
+    display:flex;
+    gap: 15px;
+}
+
+img{
+    border: 1px solid #3882F6;
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
 }
