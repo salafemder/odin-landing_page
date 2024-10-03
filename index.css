@@ -110,3 +110,22 @@ img{
     height: 200px;
 }
 
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 140px;
+}
+
+.quote-text{
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    align-self: center;
+    max-width: 600px;
+}
+
+.signature{
+    align-self: flex-end; 
+}
+
