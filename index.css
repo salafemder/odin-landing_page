@@ -55,6 +55,7 @@ ul,button,.main-description-text{
     display:flex;
     flex-flow: column wrap;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .main-hero-text{
@@ -67,11 +68,12 @@ ul,button,.main-description-text{
    max-width: 60%;
 }
 
-button{
+.main-text button{
     background-color: #3882F6;
     border-width: 0px;
     border-radius: 8px;
     max-width: fit-content;
+    padding: 5px 20px 5px 20px;
 }
 
 .gallery{
@@ -106,8 +108,8 @@ button{
 img{
     border: 2px solid #3882F6;
     border-radius: 8px;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 }
 
 .quote{
@@ -129,3 +131,53 @@ img{
     align-self: flex-end; 
 }
 
+.sign-up{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.sign-up-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 40px;
+    gap:25px;
+    max-width: 1,000px;
+}
+
+.bold-text{
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.instruction{
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+.sign-up-box button{
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 5px 20px 5px 20px;
+    margin-left: 40px;
+    background-color: #3882F6;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    margin: 0px;
+    font-size: 10px;
+}
+
+/* tweak images to prevent overflow when shrinking 
+and position signature under quote
