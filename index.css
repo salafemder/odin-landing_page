@@ -2,7 +2,6 @@
 
 *{
     font-family: 'roboto', 'Times New Roman';
-    /*border: 1px solid red;*/
 }
 
 body{
@@ -37,18 +36,13 @@ ul,button,.main-description-text{
     color: #E5E7EB;
 }
 
-#fish{
-    width:auto;
-    height:auto;
-}
-
 .main{
     background-color: #1F2937;
     display:flex;
     justify-content: space-between;
     padding: 60px;
     gap: 60px;
-    
+    flex:1;
 }
 
 .main-text{
@@ -65,7 +59,7 @@ ul,button,.main-description-text{
 }
 
 .main-description-text{
-   max-width: 60%;
+    max-width: 60%;
 }
 
 .main-text button{
@@ -93,7 +87,8 @@ ul,button,.main-description-text{
 
 .gallery-container{
     display:flex;
-    gap: 80px;
+    gap: 80px; 
+    flex-wrap: wrap;
 }
 
 .image{
@@ -102,14 +97,14 @@ ul,button,.main-description-text{
     justify-content: center;
     align-items: center;
     text-align: center;
-    max-width: 200px;
+    max-width: 150px;
 }
 
 img{
     border: 2px solid #3882F6;
     border-radius: 8px;
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
 }
 
 .quote{
@@ -117,18 +112,18 @@ img{
     display: flex;
     flex-direction: column;
     padding: 140px;
+    align-items: center;
 }
 
 .quote-text{
     color: #1F2937;
     font-style: italic;
     font-size: 36px;
-    align-self: center;
     max-width: 600px;
 }
 
 .signature{
-    align-self: flex-end; 
+    padding-left: 30%;
 }
 
 .sign-up{
@@ -178,6 +173,3 @@ img{
     margin: 0px;
     font-size: 10px;
 }
-
-/* tweak images to prevent overflow when shrinking 
-and position signature under quote
